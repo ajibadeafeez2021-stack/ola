@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, orange, blue);
+        }
+        form{
+            width: 800px;
+            height: 500px;
+            background: white;
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .why{
+           flex: 1;
+           padding: 30px;
+        }
+        h1{
+            text-align: center;
+            font-family: Verdana;
+            margin-top: 20px;
+        }
+        input{
+            width: 350px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button{
+            background: orange;
+            width: 370px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .second{
+            flex: 1;
+            padding: 30px;
+            background: blue;
+        }
+        .pp{
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        .lol{
+            padding-left: 30px;
+        }
+         .ppp{
+            color: white;
+            text-align: center;
+            background: orange;
+            padding: 7px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="why">
+        <h1>Sign in</h1>
+        <input type="Surname" placeholder="Surname"><br><br>
+        <input type="Firstname" placeholder="Firstname"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="Password" placeholder="Password"><br><br>
+        <input type="Confirm Password" placeholder="Confirm Password"><br>
+        <p><a href="#">Forget Password</a></p>
+        <button>Login</button>
+        </div>
+        <div class="second">
+        <h1>Welcome Back!</h1>
+        <h5 class="pp" style="font-family: sans-serif;">Welcome back! We are so happy to have you here, It's Great to see you again. we hope you had a safe and enjoyable time away.</h5>
+        <p class="ppp">Already Have an Account <a href="login.html">Login.</a></p>
+        <p class="ppp">Open as a guest <a href="landingpage.html">Account.</a></p>
+        </div>
+        
+    </form>
+</body>
+</html>

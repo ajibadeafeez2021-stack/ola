@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            font-family: tahoma;
+            height: 100vh;
+            background-image: url(milk.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            display: flex;
+            padding: 2% 5%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+        }
+        nav ul li a{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+        }
+        nav ul li a:hover{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: brown;
+            font-weight: 900;
+        }
+        .logo{
+            color: white;
+            font-family: cooper black;
+            font-size: 50px;
+        }
+        button{
+            padding: 12px;
+            background: dodgerblue;
+            border-radius: 20px;
+            width: 110px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+        main{
+            padding:5% 0 0 15%;
+        }
+        main h1{
+            color: white;
+            font-size: 70px;
+        }
+        main p{
+            color: white;
+            max-width: 600px;
+        }
+        .dkd{
+            background: white;
+            border-radius: 20px;
+            width: 110px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Home</div>
+            <div class="namy">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Purchase</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="pdp">
+                <button>Our Portal</button>
+            </div>
+        </nav>
+        <hr>
+        <main>
+            <h1>Transform Your <br>Business with Professional <br>Solution</h1><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatum voluptates veniam cupiditate, amet iste exercitationem maxime, deserunt odit possimus sint necessitatibus. Aliquid voluptates molestias officiis odio eius eveniet doloremque?</p><br>
+            <button>Subscribe</button>
+            <button class="dkd"><a href="sign.html">Sign Up</a></button>
+        </main>
+    </header>
+</body>
+</html>
